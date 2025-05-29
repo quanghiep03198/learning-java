@@ -24,5 +24,4 @@ public class PerfectNumbers {
       }
       return sum == number;
    }
-
 }
