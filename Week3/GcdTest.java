@@ -1,3 +1,5 @@
+package Week3;
+
 public class GcdTest {
    public static void main(String[] args) {
       // Example usage of GCD calculation
@@ -18,7 +20,7 @@ public class GcdTest {
       // Start with GCD of first two numbers using Euclidean algorithm
       int result = Math.abs(a);
       int second = Math.abs(b);
-      
+
       while (second != 0) {
          int temp = second;
          second = result % second;
